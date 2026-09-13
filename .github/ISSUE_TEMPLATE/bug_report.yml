@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Спасибо, что нашли время написать. Чем конкретнее, тем быстрее починится.
+        Спасибо, что нашли время написать. Чем подробнее опишете, тем быстрее это починится.
         *Thanks for taking the time. The more concrete, the faster it gets fixed.*
 
   - type: input
@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Что произошло / What happened
-      description: И что вы ожидали вместо этого / And what you expected instead
+      label: Что случилось / What happened
+      description: И чего вы ждали вместо этого / And what you expected instead
     validations:
       required: true
 
@@ -39,14 +39,14 @@ body:
   - type: dropdown
     id: mode
     attributes:
-      label: Какие обои стояли / Which wallpaper was active
+      label: Что было включено / Which wallpaper was active
       options:
         - Космос / Space
         - Видео с YouTube или RuTube / YouTube or RuTube video
         - Локальный файл / Local file
         - GIF
         - Из каталога / From a catalog
-        - Не знаю или не относится / Don't know or not applicable
+        - Не знаю / не про это / Don't know or not applicable
     validations:
       required: false
 
@@ -54,7 +54,7 @@ body:
     id: monitors
     attributes:
       label: Мониторы / Monitors
-      description: Сколько, какие разрешения, какой режим — span / clone / unique
+      description: Сколько их, какие разрешения и какой режим — одна сцена на все, дубль или своя вселенная на каждом
       placeholder: "3 шт., 3840×2160 + 2560×1440 + 1920×1080, режим span"
     validations:
       required: false
@@ -72,9 +72,9 @@ body:
     attributes:
       label: Скриншот и логи / Screenshot and logs
       description: |
-        Если дефект видно глазами — приложите скриншот, перетащив его сюда.
+        Если поломку видно глазами — перетащите сюда скриншот.
         Диагностический архив: **Настройки → Логи → Экспорт**.
-        ⚠️ В логах есть пути к вашим файлам и названия роликов — загляните внутрь перед отправкой.
+        ⚠️ В логах видны пути к вашим файлам и названия роликов — загляните туда, прежде чем отправлять.
 
         *If the defect is visible, drag a screenshot in here. Diagnostics bundle:
         **Settings → Logs → Export**. Note logs contain your file paths and clip titles.*

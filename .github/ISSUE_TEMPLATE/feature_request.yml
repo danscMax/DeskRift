@@ -5,10 +5,10 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Что не получается сделать сейчас / What you can't do today
+      label: Что сейчас не получается / What you can't do today
       description: |
-        Опишите ситуацию, а не решение — так больше шансов, что найдётся вариант лучше
-        того, что пришёл в голову первым.
+        Расскажите про саму ситуацию, а не про то, как её решить. Так больше шансов,
+        что найдётся вариант лучше первого пришедшего в голову.
         *Describe the situation rather than the solution — that leaves room for a better
         answer than the first one that came to mind.*
     validations:
@@ -17,14 +17,14 @@ body:
   - type: textarea
     id: idea
     attributes:
-      label: Как это могло бы работать / How it might work
+      label: А как бы вы хотели / How it might work
     validations:
       required: false
 
   - type: textarea
     id: workaround
     attributes:
-      label: Чем обходитесь сейчас / How you work around it now
+      label: Как выкручиваетесь сейчас / How you work around it now
       description: Даже «никак, просто терплю» — полезный ответ / Even "I just live with it" helps
     validations:
       required: false
