@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌐 Сайт / Website
+    url: https://deskrift.app
+    about: Загрузки и FAQ / Downloads and FAQ
+  - name: 💬 Обсуждения / Discussions
+    url: https://github.com/danscMax/DeskRift/discussions
+    about: Вопросы, впечатления, пожелания / Questions, impressions, wishes
+  - name: 🔒 Уязвимость / Security issue
+    url: https://github.com/danscMax/DeskRift/blob/main/SECURITY.md
+    about: Не в публичный трекер — на почту / Not in the public tracker — by email

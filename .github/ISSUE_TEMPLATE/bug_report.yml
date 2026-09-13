@@ -1,0 +1,82 @@
+name: 🐛 Баг / Bug report
+description: Что-то работает не так / Something is broken
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что нашли время написать. Чем конкретнее, тем быстрее починится.
+        *Thanks for taking the time. The more concrete, the faster it gets fixed.*
+
+  - type: input
+    id: version
+    attributes:
+      label: Версия DeskRift / DeskRift version
+      description: Меню пользователя → «О программе» / User menu → "About"
+      placeholder: "0.2.4"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло / What happened
+      description: И что вы ожидали вместо этого / And what you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить / How to reproduce
+      placeholder: |
+        1. Открыл панель «Космос»
+        2. Переключил качество на «Максимум»
+        3. ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Какие обои стояли / Which wallpaper was active
+      options:
+        - Космос / Space
+        - Видео с YouTube или RuTube / YouTube or RuTube video
+        - Локальный файл / Local file
+        - GIF
+        - Из каталога / From a catalog
+        - Не знаю или не относится / Don't know or not applicable
+    validations:
+      required: false
+
+  - type: input
+    id: monitors
+    attributes:
+      label: Мониторы / Monitors
+      description: Сколько, какие разрешения, какой режим — span / clone / unique
+      placeholder: "3 шт., 3840×2160 + 2560×1440 + 1920×1080, режим span"
+    validations:
+      required: false
+
+  - type: input
+    id: gpu
+    attributes:
+      label: Видеокарта / GPU
+      placeholder: "NVIDIA RTX 3060"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот и логи / Screenshot and logs
+      description: |
+        Если дефект видно глазами — приложите скриншот, перетащив его сюда.
+        Диагностический архив: **Настройки → Логи → Экспорт**.
+        ⚠️ В логах есть пути к вашим файлам и названия роликов — загляните внутрь перед отправкой.
+
+        *If the defect is visible, drag a screenshot in here. Diagnostics bundle:
+        **Settings → Logs → Export**. Note logs contain your file paths and clip titles.*
+    validations:
+      required: false
