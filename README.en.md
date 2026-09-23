@@ -11,7 +11,7 @@
 [🌐 Website](https://deskrift.app) · [⬇️ Download](#download) · [🐛 Report a bug](../../issues/new/choose)
 
 <!-- Bump the version badge by hand on every release. -->
-![Windows 0.2.4](https://img.shields.io/badge/Windows_10%2F11-0.2.4-0078D6?logo=windows&logoColor=white)
+![Windows 0.2.6](https://img.shields.io/badge/Windows_10%2F11-0.2.6-0078D6?logo=windows&logoColor=white)
 ![0% GPU in games](https://img.shields.io/badge/in%20games-0%25%20GPU-2ea44f)
 ![WebGL2](https://img.shields.io/badge/engine-WebGL2%20%2B%20Rust-blue)
 ![RU / EN / 中文](https://img.shields.io/badge/languages-RU%20%2F%20EN%20%2F%20中文-blueviolet)
@@ -30,7 +30,7 @@ Your desktop stops being a backdrop for icons. Put on a clip, a GIF, or switch t
 
 | Platform | File | Size | From the site | From GitHub |
 |---|---|---|---|---|
-| **Windows 10/11** · installer | `DeskRift-Setup.exe` | 104.8 MB | [download](https://deskrift.app/download/DeskRift-Setup.exe) | [v0.2.4](../../releases/tag/v0.2.4) |
+| **Windows 10/11** · installer | `DeskRift-Setup.exe` | 108.5 MB | [download](https://deskrift.app/download/DeskRift-Setup.exe) | [v0.2.6](../../releases/tag/v0.2.6) |
 
 The site and [Releases](../../releases) host **the same file, byte for byte** — take whichever is convenient. The site link always points at the latest build; Releases keeps past versions and checksums.
 

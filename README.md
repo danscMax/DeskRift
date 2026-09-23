@@ -11,7 +11,7 @@
 [🌐 Сайт](https://deskrift.app) · [⬇️ Скачать](#скачать) · [🐛 Сообщить о баге](../../issues/new/choose)
 
 <!-- Версию в бейдже править руками при каждом релизе. -->
-![Windows 0.2.4](https://img.shields.io/badge/Windows_10%2F11-0.2.4-0078D6?logo=windows&logoColor=white)
+![Windows 0.2.6](https://img.shields.io/badge/Windows_10%2F11-0.2.6-0078D6?logo=windows&logoColor=white)
 ![0% GPU в играх](https://img.shields.io/badge/в%20играх-0%25%20GPU-2ea44f)
 ![WebGL2](https://img.shields.io/badge/движок-WebGL2%20%2B%20Rust-blue)
 ![RU / EN / 中文](https://img.shields.io/badge/языки-RU%20%2F%20EN%20%2F%20中文-blueviolet)
@@ -32,7 +32,7 @@
 
 | Платформа | Файл | Размер | С сайта | С GitHub |
 |---|---|---|---|---|
-| **Windows 10/11** · установщик | `DeskRift-Setup.exe` | 104,8 МБ | [скачать](https://deskrift.app/download/DeskRift-Setup.exe) | [v0.2.4](../../releases/tag/v0.2.4) |
+| **Windows 10/11** · установщик | `DeskRift-Setup.exe` | 108,5 МБ | [скачать](https://deskrift.app/download/DeskRift-Setup.exe) | [v0.2.6](../../releases/tag/v0.2.6) |
 
 Файл на сайте и файл в [релизах](../../releases) — **один и тот же, байт в байт**. Берите откуда удобнее: на сайте ссылка всегда ведёт на свежую сборку, а в релизах остаются прошлые версии и контрольные суммы.
 
